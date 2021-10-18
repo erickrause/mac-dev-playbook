@@ -24,7 +24,7 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/erickrause/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -42,7 +42,6 @@ homebrew_installed_packages:
   - gettext
   - gifsicle
   - git
-  - github/gh/gh
   - go
   - gpg
   - httpie
@@ -62,6 +61,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
+  - the_silver_searcher
 
 homebrew_taps:
   - homebrew/core
@@ -74,13 +74,11 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - sequel-ace
   - slack
-  - sublime-text
+  - visual-studio-code
   - transmit
-  - vagrant
+  - iterm2
+  - spotify
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
